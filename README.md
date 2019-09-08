@@ -1,38 +1,18 @@
 # install
-npm i ez-snow.js
+$ npm i ez-snow.js
 
 # How to use?  
 
-import ezSnow from 'ezSnow';
+watch demo and API here:  
+<https://jimmyy512.github.io/ez-snow.js-demo>
 
-#``css style  ``  
-.snow{  
-  background:url("../../assets/image/taiwan.png");  
-}  
-
-#``Example 1``  
-@param 1:Append Snow Effect in which DOM.  
-@param 2:snow class name,can add image here.  
-@param 3:snow image width.  
-@param 4:snow image height.  
-let ezSnow=new ezSnow(".secondIntro","snow",36,24).init();  
-
-
-
-#``Example 2``  
-this.ezSnow=new ezSnow(".secondIntro","snow",36,24)  
-.setSnowSum(10)  
-.setFullMode(true)  
-.setAutoScale(true)  
-.init();  
-
-@param (number) : Generate snow sum.  
-setSnowSum(snowSum)  
-
-@param (boolean) : Snow start position is cover full screen.  
-setFullMode(isFullMode)  
-
-@param (boolean) : Is enable random scale.  
-@param (number) : max scale.  
-@param (number) : min scale.  
-setAutoScale(true,1.5,0.5)
+import ezSnow from 'ez-snow.js';   
+/**   
+* 初始化  
+* @constructor  
+* @param {string} appendDomName - 下雪要插入的DOM.  
+* @param {string} srcPath - 圖片路徑.  
+* @param {number} bgWidth - 產生後的圖片寬度.  
+* @param {number} bgHeight - 產生後的圖片高度.  
+*/  
+new ezSnow("body","your image path",30,20).init();
