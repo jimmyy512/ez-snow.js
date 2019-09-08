@@ -1,5 +1,5 @@
 # install
-npm install git+https://github.com/jimmyy512/ezSnow.js.git
+npm i ez-snow.js
 
 # How to use?  
 
