@@ -1,6 +1,6 @@
 {
-  "name": "ezSnow",
-  "version": "1.0.0",
+  "name": "ez-snow.js",
+  "version": "1.0.3",
   "description": "Simple Fast Create Snow Effect!",
   "main": "index.js",
   "scripts": {
