@@ -1,5 +1,9 @@
 # Effect:
-![image](https://github.com/jimmyy512/ImageAssets/blob/master/ezSnow/snowGif.gif)
+
+<p align="center">
+  <img src="https://github.com/jimmyy512/ImageAssets/blob/master/ezSnow/snowGif.gif">
+</p>
+
 # Demo:  
 <https://jimmyy512.github.io/ez-snow.js-demo>
 # install
