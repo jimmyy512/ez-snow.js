@@ -1,2 +1,2 @@
-import ezSnow from "./lib/ezSnow";
-export default ezSnow
+var ezSnow=require("./lib/ezSnow");
+module.exports=ezSnow;

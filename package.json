@@ -1,15 +1,24 @@
 {
   "name": "ez-snow.js",
-  "version": "1.0.9",
+  "version": "2.0.0",
+  "repository": "https://github.com/jimmyy512/ez-snow.js",
   "description": "Simple Fast Create Snow Effect!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0"
-  }
+  },
+  "keywords": [
+    "snow flake",
+    "snow effect",
+    "ez snow",
+    "ez-snow.js",
+    "drop effect",
+    "snow"
+  ]
 }
