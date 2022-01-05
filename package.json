@@ -5,13 +5,21 @@
   "description": "Simple Fast Create Snow Effect!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "rollup -c -w",
+    "build": "rollup -c"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.2",
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^2.63.0",
+    "rollup-plugin-babel": "^4.4.0"
   },
   "keywords": [
     "snow flake",
@@ -20,5 +28,8 @@
     "ez-snow.js",
     "drop effect",
     "snow"
-  ]
+  ],
+  "dependencies": {
+    "rollup-plugin-uglify": "^6.0.4"
+  }
 }
