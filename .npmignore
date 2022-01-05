@@ -4,3 +4,4 @@ exampleDist
 rollup.config.js
 .babelrc
 .vscode
+node_modules
