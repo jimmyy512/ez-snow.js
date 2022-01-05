@@ -350,7 +350,7 @@
 </template>
 
 <script>
-import ezSnow from 'ez-snow.js';
+import ezSnow from '../../../dist/ezSnow.umd'
 export default {
   data() {
     return {
