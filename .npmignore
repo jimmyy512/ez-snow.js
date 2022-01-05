@@ -1,3 +1,6 @@
 index.html
 example
 exampleDist
+rollup.config.js
+.babelrc
+.vscode
