@@ -30,5 +30,8 @@
     "drop effect",
     "snow"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "element-ui": "^2.15.6",
+    "ez-snow.js": "^2.0.4"
+  }
 }

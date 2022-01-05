@@ -1,0 +1,23 @@
+*{
+    -webkit-overflow-scrolling: touch;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family:Microsoft JhengHei;
+}
+
+.container{
+    display: block;
+    max-width:1024px;
+    min-width:1024px;
+    margin:0 auto;
+}
+
+.clearf:after,
+.clearf:before{
+    content:" ";
+    display:block;
+    clear:both;
+}
