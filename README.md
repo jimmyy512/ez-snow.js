@@ -5,7 +5,7 @@
 </p>
 
 # Demo:  
-<https://jimmyy512.github.io/ez-snow.js-demo>
+<https://jimmyy512.github.io/ez-snow.js>
 # install
 $ npm i ez-snow.js
 

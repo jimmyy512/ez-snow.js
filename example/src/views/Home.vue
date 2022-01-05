@@ -344,7 +344,7 @@
     </div>
 
     <div class="footer">
-      ez-snow.js 由 Majitoo 編寫
+      ez-snow.js 由 jimmyy512 編寫
     </div>
   </div>
 </template>
